@@ -1,3 +1,3 @@
-import { IPostList, IInitialState } from './types';
+import { IPostList } from './types';
 
-export type { IPostList, IInitialState };
+export type { IPostList };

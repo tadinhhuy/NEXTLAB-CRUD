@@ -1,7 +1,6 @@
 import { Typography, Button, Form } from 'antd';
-import { memo, useState } from 'react';
+import { memo } from 'react';
 import { Card } from '../../components';
-import { useStateProvider } from '../../hooks';
 import { IPostList } from '../../interfaces/posts';
 
 const PostList: React.FC<any> = ({
@@ -12,8 +11,6 @@ const PostList: React.FC<any> = ({
   onDelete,
   onShowModalEditing,
 }): JSX.Element => {
-  // const [state]: any = useStateProvider();
-
   return (
     <div className='list-container'>
       <div>
